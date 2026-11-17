@@ -1,0 +1,71 @@
+{
+  "upstream": "https://github.com/wici-ai/inferssd",
+  "base_commit": "aa957de2958e8e6df84f87da49b8b4d55484b5bb",
+  "prerequisite_intel_patch_sha256": "497a6a8c257acb3eaa1a0dbf9a8bf21433e5ec229ab10585de5beafe64e3b647",
+  "deepseek_patch_sha256": "1f99c8adb29ec770869bb779b69ac9ccf1a5a411987a843a770f8e6f1ee88794",
+  "changed_files": [
+    "engine/ggml/src/ggml-vulkan/vulkan-shaders/softplus-f32.comp",
+    "engine/ggml/src/ggml-vulkan/vulkan-shaders/vulkan-shaders-gen.cpp",
+    "engine/src/b70-deepseek-ops.h",
+    "engine/src/b70-deepseek-tail-rope.h",
+    "engine/src/b70-sparse-rows.h",
+    "engine/src/llama-graph.cpp",
+    "engine/src/llama-graph.h",
+    "engine/src/llama-model-loader.cpp",
+    "engine/src/llama-model.cpp",
+    "engine/src/llama-model.h",
+    "engine/src/llama.cpp",
+    "engine/src/models/deepseek41.cpp"
+  ],
+  "final_files": [
+    {
+      "path": "engine/ggml/src/ggml-vulkan/vulkan-shaders/softplus-f32.comp",
+      "sha256": "22a1e53c727e08b8ca55866ea80b78944d6fcba9c6c3e43d20d2273142535a72"
+    },
+    {
+      "path": "engine/ggml/src/ggml-vulkan/vulkan-shaders/vulkan-shaders-gen.cpp",
+      "sha256": "28f9e90d3fc184429cab7fcb8117a17136ab313da10b1070f3a6475cbe79c5b3"
+    },
+    {
+      "path": "engine/src/b70-deepseek-ops.h",
+      "sha256": "fc93c778e83219fb41400cd7151193eae15744f93e087e5a124b70f49c9c1e8e"
+    },
+    {
+      "path": "engine/src/b70-deepseek-tail-rope.h",
+      "sha256": "42cfaeacb1b789a1ac2bdf78f5b9afe4136f374e54e26ba4f81863b0c6446eae"
+    },
+    {
+      "path": "engine/src/b70-sparse-rows.h",
+      "sha256": "075b8ba522e3b2c66fcfb1c1d483fd15910b4fd43fc7071889606ebb706fb024"
+    },
+    {
+      "path": "engine/src/llama-graph.cpp",
+      "sha256": "27e8e70607dc5d3dca77d4a4d1f1bad59caa5335b0144e12188596833b677cd2"
+    },
+    {
+      "path": "engine/src/llama-graph.h",
+      "sha256": "dd1e69e25c60d986642b647d3a387a2b101a2e7d2012376045bf8bc195e0ecc0"
+    },
+    {
+      "path": "engine/src/llama-model-loader.cpp",
+      "sha256": "e59c223f82678f0c2e85db5184c33ae1ddbcc7477995180a05d3ee998e55c5b0"
+    },
+    {
+      "path": "engine/src/llama-model.cpp",
+      "sha256": "4cffd58d2b02aceeade1db18ec63494ed59fa197a821964f0b797ed974c1fe06"
+    },
+    {
+      "path": "engine/src/llama-model.h",
+      "sha256": "85517b12b4a1c8d518d6051188e7c46ed0ded7530b9fbeecac8827cc33d278f5"
+    },
+    {
+      "path": "engine/src/llama.cpp",
+      "sha256": "22902d430163e28591678b6dc7f335e9ee3f90a9b596bd3d0ef91d28ee2d9bc5"
+    },
+    {
+      "path": "engine/src/models/deepseek41.cpp",
+      "sha256": "9fe099ba6737a83ee496f130255c1b5449f551630be7a1c4289058b94bad2ad3"
+    }
+  ],
+  "clean_public_rebuild_performed": false
+}
